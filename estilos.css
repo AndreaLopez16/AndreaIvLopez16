@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+main{
+    width: 1366px;
+    height: 1260px;                
+    margin: 0 auto;
+    background-color: #fff7f0;
+}
+
+header{
+    width: 1366px;
+    height: 60px;
+    text-align: left;
+    margin-left: 30px;
+
+}
+.icono {
+    height: 35px;
+    width: auto; 
+    padding-left: 850px;
+}
+
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: #fff7f0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    overflow: hidden;
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Kalam", cursive;
+    transition: 1s;
+    color: black;
+    font-size: 20px;
+
+}
+
+nav a:hover{
+    background-color: rgba(220, 117, 7, 0.329);
+    transform: scale(1.2);
+}
+
+section{
+    width: 1366px;
+    height: 750px;
+    background-color:#ffcf56;
+    margin: 0px;
+
+}
+
+.diseñador1{
+    display:flex ;
+    align-items: center;
+    float:left;
+    width: 650px;
+    height: 350px;
+    margin-left: 35px;
+    
+}
+.texto1{
+    width: 400px;
+    height: 300px;
+    float: right;
+    text-align: left;
+}
+.foto1{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    
+}
+
+.diseñador2{
+    display:flex ;
+    align-items: center;
+    float:left;
+    width: 650px;
+    height: 350px;
+    
+}
+.texto2{
+    width: 400px;
+    height: 300px;
+    float: right;
+    text-align: left;
+}
+.foto2{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.circular-image{
+    width: 300px; 
+    height: 300px; 
+    border-radius: 20%; 
+    object-fit: cover; 
+}
+.diseñador3{
+    display:flex ;
+    align-items: center;
+    float:left;
+    width: 650px;
+    height: 350px;
+    margin-left: 35px; 
+}
+.texto3{
+    width: 400px;
+    height: 315px;
+    float: right;
+    text-align: left;
+}
+.foto3{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    
+}
+
+.diseñador4{
+    display:flex ;
+    align-items: center;
+    float:left;
+    width: 650px;
+    height: 350px;
+}
+.texto4{
+    width: 400px;
+    height: 300px;
+    float: right;
+    text-align: left;
+}
+.foto4{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+
+footer{
+    width: 1366px;
+    height: 400px;
+    background-color:#fff7f0;
+    margin-top: 0%;
+}
+
+.congreso{
+    width: 1366px;
+    height: 50px;
+    background-color: #e96951;
+    text-align: center;
+    font-size: 20px;
+    color:aliceblue;
+    padding-top: 0%;
+}
+
+.mapa{
+    display: flex;
+    justify-content:left;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.circular-mapa{
+    width: 400px; 
+    height: 300px; 
+    border-radius: 30%; 
+}
+.contacto{
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+.contacto h2 {
+    color: #333; 
+    margin-bottom: 10px; 
+    text-align: center;
+}
+.contacto p{
+        margin-bottom: 10px; 
+        line-height: 2.5;
+        font-size: 20px;
+}
